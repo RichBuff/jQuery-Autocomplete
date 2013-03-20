@@ -1,4 +1,5 @@
 function initPage() {
-    var first = $("ul li:first");
-    
+    $("#thelist").autocomplete();
+    var sbmt = $("#formsubmit").parent(".ui-submit");
+    sbmt.addClass("submit");
 }

@@ -5,12 +5,12 @@
 
 
 .thebox ul {
-    max-height: 100px;
+    max-height: 150px;
     overflow-y: scroll;
     width: 250px;
     overflow-x: hidden;
     position: fixed;
-    left: 0px;
+    left: 10px;
     top: 125px;
     padding-left: 6px;
     padding-top: 0px;
@@ -27,4 +27,6 @@
     width: 230px;
 }
 
-
+.submit {
+    width:150px;
+}
